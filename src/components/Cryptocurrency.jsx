@@ -36,9 +36,9 @@ function Cryptocurrency() {
                 <div className="main-cards">
                     {Object.keys(data).map((crypto, index) => (
                         <div key={index} className="card">
-                            <h3> Crypto : {crypto}</h3>
-                            <p>Price : {data[crypto].rate}</p>
-                            <p>Description : {data[crypto].description}</p>
+                            <h3> Current Price in {getCurrencySymbol(crypto)}</h3>
+                            <h5>Price : {data[crypto].rate}</h5>
+                            <h5>Description : {data[crypto].description}</h5>
                             
                         </div>
                     ))}
@@ -49,6 +49,19 @@ function Cryptocurrency() {
         </main>
 
     )
+
+    function getCurrencySymbol(currencyName) {
+        switch (currencyName.toUpperCase()) {
+          case 'EUR':
+            return '€ (euro)';
+          case 'GBP':
+            return '£ (pound)';
+          case 'USD':
+            return '$ (dollar)';
+          default:
+            return currencyName; // Return the currency name if no matching symbol is found
+        }
+      }
 }
 
 export default Cryptocurrency

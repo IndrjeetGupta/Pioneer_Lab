@@ -218,12 +218,13 @@ background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 10px;
+    /* padding-left: 20px; */
     padding: -100px 0px -20px 0px;
     border-radius: 5px;
     background-color: #0e1219;
   }
-  .card > h3 ,p {
+  .card > h3, h5 {
+    margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
