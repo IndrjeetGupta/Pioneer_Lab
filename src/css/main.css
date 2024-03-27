@@ -57,7 +57,7 @@ body {
   #sidebar {
     grid-area: sidebar;
     height: 100%;
-    background-color: #0e1219;
+    background-color: #233957;
     overflow-y: auto;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -70,9 +70,24 @@ body {
     padding: 15px 30px 0px 30px;
     margin-bottom: 30px;
   }
+  .searchInput{
+    margin-left: 10px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #151516;;
+  }
   
   .sidebar-title > span {
     display: none;
+  }
+  .top-logo{
+    display: flex;
+    align-items: center;
+    gap: -300px;
+    /* justify-content: space-evenly; */
   }
   
   .sidebar-brand {
@@ -85,6 +100,55 @@ body {
     padding: 0;
     list-style-type: none;
   }
+  .sidebar-list > li {
+    margin-top: -25px;
+    margin-bottom: -25px;
+  }
+  .details{
+   
+    
+    background-color: #151516;
+    box-shadow: rgba(138, 134, 134, 0.15) 1.95px 1.95px 2.6px;
+    margin: 10px;
+    padding-top: -50px;
+    padding-bottom: -50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .details  img{
+    margin-left: 10px;
+    width: 60%;
+    border-radius: 20px;
+    padding: auto;
+
+  }
+  .details > div > h4{
+    margin-bottom: -15px;
+    margin-right: 10px;
+  }
+  .details > div > h4,p{
+   
+    margin-right: 10px;
+  }
+
+
+.sidebar-responsive  img{
+  margin-left: 10px;
+  margin-right: -100px;
+  width: 60%;
+  border-radius: 20px;
+  padding: auto;
+
+}
+.sidebar-responsive details{
+background-color: aqua;
+}
+
+
+
+  
   
   .sidebar-list-item {
     padding: 20px 20px 20px 20px;
