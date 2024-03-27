@@ -104,6 +104,15 @@ body {
     margin-top: -25px;
     margin-bottom: -25px;
   }
+  .top-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    
+  }
+  .top-logo  h4{
+    color: green;
+  }
   .details{
    
     

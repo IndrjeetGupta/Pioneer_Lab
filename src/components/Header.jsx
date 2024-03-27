@@ -1,7 +1,5 @@
 
 import React from 'react'
-// import '../css/Cryptocurrency.css'
-import '../css/main.css'
 import 
  { BsJustify}
  from 'react-icons/bs'
@@ -12,7 +10,7 @@ function Header({OpenSidebar}) {
         <div className='menu-icon'>
             <BsJustify className='icon' onClick={OpenSidebar}/>
         </div>
-        <h1 style={{margin: "auto"}}>Welcome To Dashboard</h1>
+        <h1 style={{margin: "auto", color: 'green', justifyContent: 'space-around'}}>Welcome To Dashboard</h1>
 
     </header>
   )
