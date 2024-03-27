@@ -7,7 +7,7 @@
 <h1>Tab view</h1>
 <img src="./src/images/tabview.png">
 <h1>After clicking hamburger menu</h1>
-<img src="./src/images/Screenshot 2024-03-27 144223.png">
+<img src="./src/images/ipad.png">
 
 
 <<<<<<< HEAD
