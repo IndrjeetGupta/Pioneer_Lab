@@ -33,7 +33,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
             >
                 <div style={{ marginLeft: "10px", color: 'green' }}>
 
-                    <h2>Carbon <br />cell</h2>
+                    <h2>Carbon Cell</h2>
 
                 </div>
                 <div>
@@ -52,7 +52,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
                 <input className='searchInput' style={{ paddingLeft: '30px' }} type="text" name="" id="" placeholder='Search' />
             </div>
 
-
+ <br />
 
             <ul className='sidebar-list'  >
                 <li className='sidebar-list-item' >
@@ -89,6 +89,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
                 <br />
                 <br />
                 <br />
+                <br />
                 <li className='sidebar-list-item'>
                     <a href="">
                         <IoMdNotificationsOutline className='icon' /> Notifictions
@@ -109,7 +110,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
                     <div>
                         <img className='dummyImg'
 
-                            src="data:image/jpeg;base64,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"
+                            src="https://p.kindpng.com/picc/s/252-2524695_dummy-profile-image-jpg-hd-png-download.png"
                             alt="" />
                     </div>
                     <div>

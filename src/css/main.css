@@ -57,7 +57,7 @@ body {
   #sidebar {
     grid-area: sidebar;
     height: 100%;
-    background-color: #233957;
+    background-color: #0c0818;
     overflow-y: auto;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -124,20 +124,26 @@ body {
     border-radius: 10px;
     display: flex;
     align-items: center;
+    ;
   }
 
   .details  img{
     margin-left: 10px;
-    width: 60%;
+    width: 70%;
     border-radius: 20px;
     padding: auto;
 
   }
   .details > div > h4{
-    margin-bottom: -15px;
+    margin-top: 10px;
     margin-right: 10px;
   }
+  .details > div > p{
+    margin-top: -20px;
+    /* margin-right: 10px; */
+  }
   .details > div > h4,p{
+    
    
     margin-right: 10px;
   }
@@ -145,7 +151,7 @@ body {
 
 .sidebar-responsive  img{
   margin-left: 10px;
-  margin-right: -100px;
+  margin-right: -250px;
   width: 60%;
   border-radius: 20px;
   padding: auto;
@@ -165,7 +171,7 @@ background-color: aqua;
   }
   
   .sidebar-list-item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    /* background-color: rgba(255, 255, 255, 0.2); */
     cursor: pointer;
   }
   
@@ -212,15 +218,27 @@ background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 8px 15px;
+    padding-left: 10px;
+    padding: -100px 0px -20px 0px;
     border-radius: 5px;
     background-color: #0e1219;
   }
+  .card > h3 ,p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   
-  /* .card:first-child {
+  .card:first-child {
     background-color: #2962ff;
-  } */
+  }
+ 
   
+  .card:nth-child(3) {
+    background-color: #29ffca;
+  }
+  .card:nth-child(2) {
+    background-color: #ff9029;
+  }
 
   
   .card-inner {
@@ -237,7 +255,7 @@ background-color: aqua;
   .charts {
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     margin-top: 10px;
     height: 300px;

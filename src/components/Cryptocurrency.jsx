@@ -36,8 +36,10 @@ function Cryptocurrency() {
                 <div className="main-cards">
                     {Object.keys(data).map((crypto, index) => (
                         <div key={index} className="card">
-                            <h3>{crypto}</h3>
-                            <p>{data[crypto].rate}</p>
+                            <h3> Crypto : {crypto}</h3>
+                            <p>Price : {data[crypto].rate}</p>
+                            <p>Description : {data[crypto].description}</p>
+                            
                         </div>
                     ))}
                 </div>
