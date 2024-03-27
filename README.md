@@ -10,9 +10,4 @@
 <img src="./src/images/ipad.png">
 
 
-<<<<<<< HEAD
 
-
-<img src="./src/images/Screenshot 2024-03-27 143753.png">
-=======
->>>>>>> 5cd16a0f2f4740d674dc069a378b4d2c769f0c1a
