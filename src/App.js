@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function App() {
   const [openSidebarToggle, setOpenSidebarToggle] = useState(false)
-
+  console.log(openSidebarToggle)
   const OpenSidebar = () => {
     setOpenSidebarToggle(!openSidebarToggle)
   }
