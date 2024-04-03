@@ -20,11 +20,8 @@ function Cryptocurrency() {
     useEffect(() => {
         fetctdata()
     }, [])
-    console.log(data.USD)
-    const card1 = data.USD
-    const card2 = data.GBP
-
-    const card3 = data.USD
+  
+ 
     return (
 
         <main>

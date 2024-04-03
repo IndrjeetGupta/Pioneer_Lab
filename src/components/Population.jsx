@@ -40,7 +40,6 @@ function Population() {
                         <XAxis dataKey="Nation" />
                         <YAxis />
                         <Tooltip />
-                        {/* <Legend /> */}
                         <Bar dataKey="Population" fill="lightgreen" />
                     </BarChart>
                 </ResponsiveContainer>

@@ -11,7 +11,7 @@ body {
   .grid-container {
     display: grid;
     grid-template-columns: 260px 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 3fr;
+    grid-template-rows: 0.2fr 2fr;
     grid-template-areas:
       'sidebar header header header'
       'sidebar main main main';
@@ -168,6 +168,7 @@ background-color: aqua;
   
   
   /* Main  */  
+  
   .main-container {
     grid-area: main;
     overflow-y: auto;
@@ -214,17 +215,6 @@ background-color: aqua;
   }
 
   
-  .card-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .card-inner > .card_icon {
-    font-size: 25px;
-  }
-  
-
   .charts {
     height: auto;
     display: grid;
