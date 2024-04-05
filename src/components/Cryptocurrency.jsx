@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { useEffect } from 'react';
+import '../css/main.css'
 
 function Cryptocurrency() {
     const [data, setData] = useState([])

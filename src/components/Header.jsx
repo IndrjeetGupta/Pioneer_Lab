@@ -3,6 +3,7 @@ import React from 'react'
 import 
  { BsJustify}
  from 'react-icons/bs'
+ import '../css/main.css'
  
 
 function Header({OpenSidebar}) {

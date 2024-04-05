@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { BarChart, Bar, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, CartesianGrid, XAxis, YAxis, Tooltip,  ResponsiveContainer } from 'recharts';
 import Cryptocurrency from './Cryptocurrency';
+import '../css/main.css'
 
 function Population() {
     const [data, setData] = useState([]);
@@ -31,6 +32,7 @@ function Population() {
             <h2>Population Data for Different Nations</h2>
             <div className='charts'>
                 <ResponsiveContainer width="100%" height={300}>
+                    
                     <BarChart
                         data={data}
                         margin={{ top: 5, right: 20, left: 20, bottom: 5 }}
