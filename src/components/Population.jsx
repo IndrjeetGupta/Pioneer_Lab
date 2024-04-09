@@ -22,7 +22,9 @@ function Population() {
 
     const handleClick = (event) => {
         if (event.activePayload && event.activePayload.length) {
+            // event.activePayload[0]: This accesses the first element (index 0) of the activePayload array
             const payload = event.activePayload[0].payload;
+            // payload property of the first element of activePayload.
             alert(`Country: ${payload.Nation}, Population: ${payload.Population}`);
         }
     }
@@ -39,9 +41,9 @@ function Population() {
                         onClick={handleClick}
                     >
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="Nation" />
+                        <XAxis dataKey="Year" />
                         <YAxis />
-                        <Tooltip />
+                        <Tooltip  />
                         <Bar dataKey="Population" fill="lightgreen" />
                     </BarChart>
                 </ResponsiveContainer>

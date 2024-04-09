@@ -141,6 +141,7 @@ background-color: aqua;
   
   .sidebar-responsive {
     display: block !important;
+    /* display: block !important; overring the any other styles */
     position: absolute;
     z-index: 12;
   }
